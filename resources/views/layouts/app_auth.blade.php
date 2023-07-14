@@ -31,24 +31,11 @@
     <!-- Template Main CSS File -->
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
 
-    <!-- =======================================================
-  * Template Name: NiceAdmin
-  * Updated: May 30 2023 with Bootstrap v5.3.0
-  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
 
-    @include('layouts.header')
-
-    @include('layouts.sidebar')
-
     @yield('content')
-
-    @include('layouts.footer')
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>

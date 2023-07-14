@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+    Admin | Dashboard
+@endsection
 @section('content')
     <main id="main" class="main">
 
